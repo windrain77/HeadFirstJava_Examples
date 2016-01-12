@@ -12,8 +12,6 @@ public class Owner {
 
 		Vet vet = new Vet();
 		for (int i = 0; i < a.length; i++) {
-		//	a[i].eat();
-		//	a[i].roam();
 			vet.giveShot(a[i]);
 			System.out.println("----------------------------------");
 		}
