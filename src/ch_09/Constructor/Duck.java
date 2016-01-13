@@ -1,15 +1,16 @@
 package ch_09.Constructor;
 
-public class Duck {
+public class Duck extends Animal {
 
 	int size;
-	
+
 	public Duck() {
 		size = 27;
 		System.out.println("Quack! size: " + size + " (default)");
 	}
 
 	public Duck(int duckSize) {
+		super();
 		this.size = duckSize;
 		System.out.println("Quack! size: " + size);
 	}
