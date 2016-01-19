@@ -11,6 +11,12 @@ class STest{
 	}
 }
 
+class Foo{
+	public final void finalMethod(){
+		// Override 되지 않는 중요한 메소드
+	}
+}
+
 public class TestMath {
 	public static void main(String[] args) {
 	//	Math mathObject = new Math();
