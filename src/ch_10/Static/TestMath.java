@@ -4,6 +4,11 @@ class STest{
 	private STest(){}
 	
 	public static int S_TEST_01 = 100;
+	public static final int SF_TEST_01 = 1000;
+	public static final int SF_TEST_02;
+	static{
+		SF_TEST_02 = 2000;
+	}
 }
 
 public class TestMath {
@@ -17,5 +22,7 @@ public class TestMath {
 		System.out.println("E : " + Math.E + "\nPI : " + Math.PI);
 		
 		System.out.println(STest.S_TEST_01);
+		System.out.println(STest.SF_TEST_01);
+		System.out.println(STest.SF_TEST_02);
 	}
 }
