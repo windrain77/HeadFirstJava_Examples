@@ -17,6 +17,10 @@ class Foo{
 	}
 }
 
+final class Var{
+	// 이 클래스는 확장(extends, 상속)할 수 없다.
+}
+
 public class TestMath {
 	public static void main(String[] args) {
 	//	Math mathObject = new Math();
